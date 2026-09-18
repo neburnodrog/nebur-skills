@@ -9,8 +9,10 @@
   "plugins": [
     {
       "name": "nebur-skills",
-      "description": "Shipping workflows, writing passes, repo hygiene and project bootstrapping as Claude Code skills.",
-      "author": { "name": "Ruben Karlsson" },
+      "description": "Repo hygiene, comment and review passes, and personal project bootstrapping as Claude Code skills.",
+      "author": {
+        "name": "Ruben Karlsson"
+      },
       "category": "productivity",
       "source": "./",
       "homepage": "https://github.com/neburnodrog/nebur-skills"
