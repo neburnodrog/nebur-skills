@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "nebur-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Ruben Karlsson's Claude Code skills: repo hygiene (clean-branches, dependabot-manager), comment and review passes, and personal project bootstrapping.",
   "author": {
     "name": "Ruben Karlsson",

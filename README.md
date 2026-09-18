@@ -35,12 +35,6 @@ Setup and config
 | `nebur-audit` | Scores a Claude Code config and finds instructions that cannot fire. |
 | `allhands` | Builds a monthly all-hands summary from your own git activity. |
 
-Writing
-
-| Skill | Does |
-|---|---|
-| `unslop-de` | German editing pass, the German delta on top of an `unslop` pass. |
-
 ## Before you install
 
 Some skills assume my setup and will need editing for yours:
@@ -49,7 +43,7 @@ Some skills assume my setup and will need editing for yours:
 - `personal-clone` and `new-personal-web-project` use the `gh` and `vercel` CLIs, already authenticated.
 - `nebur-audit` reads `~/.claude`.
 
-Three skills call skills that are not in this repo. `nebur-audit` calls `/skill-doctor`, which is built into Claude Code. `improve-module-architecture` points at `/improve-codebase-architecture`. `unslop-de` is the German delta on top of an `unslop` pass and expects that pass to exist. Each degrades to doing the step inline.
+Two skills call skills that are not in this repo. `nebur-audit` calls `/skill-doctor`, which is built into Claude Code, and `improve-module-architecture` points at `/improve-codebase-architecture`. Both degrade to doing the step inline.
 
 ## Testing
 
