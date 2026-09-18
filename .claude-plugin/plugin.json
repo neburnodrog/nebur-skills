@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "nebur-skills",
+  "version": "0.1.0",
+  "description": "Ruben Karlsson's Claude Code skills: shipping workflows (go, ship, implement), writing passes (unslop, trim-comments), repo hygiene (clean-branches, dependabot-manager) and project bootstrapping.",
+  "author": {
+    "name": "Ruben Karlsson",
+    "email": "neburgordon@gmail.com",
+    "url": "https://github.com/neburnodrog"
+  },
+  "homepage": "https://github.com/neburnodrog/nebur-skills",
+  "repository": "https://github.com/neburnodrog/nebur-skills",
+  "license": "MIT",
+  "keywords": ["skills", "workflow", "git", "writing", "code-review"],
+  "skills": "./skills/"
+}

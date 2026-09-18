@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "nebur-skills",
+  "description": "Ruben Karlsson's Claude Code skills.",
+  "owner": {
+    "name": "Ruben Karlsson",
+    "email": "neburgordon@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "nebur-skills",
+      "description": "Shipping workflows, writing passes, repo hygiene and project bootstrapping as Claude Code skills.",
+      "author": { "name": "Ruben Karlsson" },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://github.com/neburnodrog/nebur-skills"
+    }
+  ]
+}

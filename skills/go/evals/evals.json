@@ -1,0 +1,47 @@
+{
+  "skill_name": "go",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I just finished adding a dark mode toggle to my Next.js app. The component is in src/components/ThemeToggle.tsx and it uses next-themes. I've tested it manually and it works. /go",
+      "expected_output": "Detects web-app project type, starts dev server, verifies the page loads (ideally navigates to the theme toggle), runs /simplify on changed files, creates a PR with testing evidence",
+      "files": [],
+      "expectations": [
+        "Detects the project as a web-app or fullstack type",
+        "Attempts to start the dev server",
+        "Runs the existing test suite if one exists",
+        "Invokes the /simplify skill or equivalent code review",
+        "Creates a PR or invokes ce-commit-push-pr",
+        "Reports a summary with testing, simplify, and PR status"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "ok so I added a new POST /api/webhooks/stripe endpoint to handle subscription changes. It validates the webhook signature, updates the user's plan in the database, and sends a confirmation email. The code is in src/routes/webhooks.ts. /go",
+      "expected_output": "Detects backend-api project type, starts the server, tests the webhook endpoint with curl, runs /simplify, creates PR",
+      "files": [],
+      "expectations": [
+        "Detects the project as a backend-api type",
+        "Attempts to start the backend server",
+        "Tests the API endpoint with curl or similar",
+        "Invokes the /simplify skill",
+        "Creates a PR with details about what was tested",
+        "Reports a summary with testing, simplify, and PR status"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I just built a Chrome extension that highlights all prices on any webpage and converts them to EUR using a live exchange rate. The manifest.json is set up, content script injects into all pages, and the popup lets you pick your target currency. /go",
+      "expected_output": "Detects chrome-extension project type, builds the extension, verifies build output, optionally loads in browser, runs /simplify, creates PR",
+      "files": [],
+      "expectations": [
+        "Detects the project as a chrome-extension type via manifest.json inspection",
+        "Runs the build command if one exists",
+        "Verifies the built extension has valid structure",
+        "Invokes the /simplify skill",
+        "Creates a PR",
+        "Reports a summary with testing, simplify, and PR status"
+      ]
+    }
+  ]
+}
