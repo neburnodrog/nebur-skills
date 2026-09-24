@@ -53,6 +53,10 @@ Two skills call skills that are not in this repo. `nebur-audit` calls `/skill-do
 bash skills/clean-branches/test.sh
 ```
 
+## Working on these skills
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how the two repos fit together, when a version bump is needed, and why the cache is never the thing to edit.
+
 ## Licence
 
 MIT.
